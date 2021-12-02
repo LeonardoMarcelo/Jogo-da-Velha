@@ -1,0 +1,38 @@
+body {
+    text-align: center;
+    background-image: url('https://media.istockphoto.com/vectors/tictactoe-back-to-school-background-doodle-tic-tac-toe-game-pen-and-vector-id989794376');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+h1,
+label {
+    color: white;
+}
+
+.quadrado {
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    background-color: #eee;
+    display: inline-block;
+    padding: 40px;
+    font-size: 60px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.jogador,
+.vencedor {
+    font-size: 38px;
+    margin-top: 10px;
+}
+
+button {
+    margin-top: 10px;
+    width: 100px;
+    height: 30px;
+    background-color: #eee;
+    cursor: pointer;
+}
